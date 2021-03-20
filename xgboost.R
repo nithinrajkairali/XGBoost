@@ -164,5 +164,5 @@ odds_to_probs(-0.599)
 # get information on how important each feature is
 importance_matrix <- xgb.importance(names(diseaseInfo_matrix), model = model)
 
-# and plot it!
+# plot 
 xgb.plot.importance(importance_matrix)
